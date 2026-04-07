@@ -17,4 +17,10 @@ public class ExtentManager {
         }
         return extent;
     }
+
+    public static void flushReport() {
+        if (extent != null) {
+            extent.flush();
+        }
+    }
 }

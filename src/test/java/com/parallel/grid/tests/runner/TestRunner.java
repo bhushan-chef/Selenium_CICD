@@ -5,8 +5,13 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = {"com.parallel.grid.tests.stepDefinitions"},
-        plugin = {"pretty"}
+        glue = {
+                "com.parallel.grid.tests.stepDefinitions",
+                "com.parallel.grid.tests.hooks"   // ✅ ADD THIS
+        },
+        plugin = {
+                "pretty"
+        }
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 }
