@@ -27,8 +27,8 @@ pipeline {
             ])
         }
     }
-<<<<<<< HEAD
+//<<<<<<< HEAD
 }
-=======
+//=======
 }
->>>>>>> 1ee59a8 (Updated project after pulling latest changes)
+//>>>>>>> 1ee59a8 (Updated project after pulling latest changes)
